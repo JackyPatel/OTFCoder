@@ -1,0 +1,89 @@
+table.dataTable thead > tr > th {
+	padding-right: 8px !important;
+}
+/*.form-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form-group label {
+	padding-top: 0 !important; 
+}*/
+
+.mr-10 {
+	margin-right:10px;
+}
+
+.mr-20 {
+	margin-right:20px;
+}
+.m-0 {
+	margin: 0;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.pt-10 {
+	padding-top: 20px;
+}
+.p-5 {
+	padding:5px !important;
+}
+@media screen and (max-width:767px) {
+	.add_per a {
+		margin: 10px 10px 10px 0;
+	}
+}
+.ps-relative {
+	position: relative;
+}
+.legend-title {
+	position: absolute;
+	top: -8px;
+	left:15px;
+	background-color:#fff;
+	padding:0 5px; 
+}
+.disable-cover {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	background-color:rgba(255,255,255,0.2);
+	cursor: no-drop;
+	display: none;
+}
+.text-white {
+	color: white;
+}
+.bg-red {
+	background-color: red;
+}
+.bg-green{
+	background-color: green;
+}
+.bg-warning{
+	background-color: #f0ad4e;
+}
+.bg-pink{
+	background-color: ##FF1493;
+}
+
+.bg-info{
+	background-color: #5bc0de;
+}
+.btn-purple{
+	background-color:#7D3C98;
+	color:white;
+}
+
+.btn-right{
+	float: right;
+}
+.toast-top-right {
+	top:70px !important;
+}
+.modal{
+	z-index:99999 !important;
+}
